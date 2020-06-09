@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Probability Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/stuff.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  </head>
+
+  <body>
+
+    <h1>Probability Calculator</h1>
+
+    <div>This calculator will give you the percentage chance of an event happening on a number of trys in which
+        the the odds stay the same between trys.</div>
+
+    <div>Enter your odds below. Numerator is the top part of a fraction and Denominator is the bottom.
+        Example: 1 over 2 is 50%. Enter how many times you want to repeat those odds.
+
+    <div class="w3-row">
+        <div class="w3-third w3-container w3-red">
+            <label>Numerator</label>
+            <input id ="1" class="w3-input" type="number">
+
+        </div>
+
+        <div class="w3-third w3-container w3-orange">
+            <label>Denominator</label>
+            <input id ="2" class="w3-input" type="number">
+
+        </div>
+
+        <div class="w3-third w3-container w3-pink">
+            <label>How Many Times</label>
+            <input id ="3" class="w3-input" type="number">
+
+        </div>
+    </div>
+
+    <div class="w3-row">
+        <div class="w3-twothird w3-container w3-yellow">
+            <p>The probability of you getting it are! <strong>Note:</strong> that the probability is average 
+            and not a guarantee. It could happen first try or never.</p>
+
+        </div>
+
+        <div class="w3-third w3-container">
+            <button onclick="Calculate()" class="button">Calculate</button>
+        </div>
+
+    </div>
+
+    <div class="w3-third w3-container w3-white">
+        <p id="f"></p>
+    
+    </div>
+    
+    
+
+
+
+  </body>
+
+      <script src="/Core.js"></script>
+
+</html>       
